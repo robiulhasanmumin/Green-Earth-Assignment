@@ -10,20 +10,26 @@
 
 ## 3) What are arrow functions in ES6?
 - It's a shorter and cleaner way to write function.
-Example:
+- Example:
+
+```js
 const sum = (a,b)=>a+b;
 
 ## 4) How does destructuring assignment work in ES6?
 - Allow extracting values directly from arrays and objects.
-Example:
+- Example:
+```js
 const [x,y] = [5,6];
 const {name,age} = {name: "Jahid", age:24};
+
+---
 
 ## 5) Explain template literals in ES6. How are they different from string concatenation?
 - Use backticks (`) instead of quotes.
 - Support variable interpolation with ${}.
 - Allow multi-line strings easily.
-Example:
+- Example:
+```js
 const name = "Mumin";
 const age = 21;
 console.log(`My name is ${name}, I am ${age} years old.`)
