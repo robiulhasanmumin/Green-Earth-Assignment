@@ -104,13 +104,23 @@
         <!-- About the Campaign -->
         <section>
           <div>
-            <h1 class="text-[26px] font-semibold text-center mb-4">About the Campaign</h1>
-            <div class="flex flex-col md:flex-row justify-center items-center mx-auto w-3/5 gap-6">
+            <h1 class="text-[26px] font-semibold text-center mb-4">
+              About the Campaign
+            </h1>
+            <div
+              class="flex flex-col md:flex-row justify-center items-center mx-auto w-3/5 gap-6"
+            >
               <div class="flex-1">
-                <img src="./assets/about.png" alt="">
+                <img src="./assets/about.png" alt="" />
               </div>
               <div class="flex-1 text-[13px] text-[#1F2937]">
-                <p>Green Earth is a global tree plantation initiative dedicated to fighting climate change. Since our start, we’ve planted over 500,000 trees worldwide. By joining our campaign, you help restore forests, create habitats for wildlife, and combat global warming.</p>
+                <p>
+                  Green Earth is a global tree plantation initiative dedicated
+                  to fighting climate change. Since our start, we’ve planted
+                  over 500,000 trees worldwide. By joining our campaign, you
+                  help restore forests, create habitats for wildlife, and combat
+                  global warming.
+                </p>
                 <ul class="list-disc list-inside ml-2 mt-2">
                   <li>Restoration of natural habitats</li>
                   <li>Improvement of air quality</li>
@@ -123,7 +133,7 @@
       </div>
 
       <!-- Our Impact -->
-       <section>
+      <section>
         <div class="bg-[#CFF0DC] py-14">
           <h1 class="text-[26px] font-semibold text-center mb-4">Our Impact</h1>
           <div class="grid md:grid-cols-3 gap-4 md:gap-8 md:px-28 px-16">
@@ -141,7 +151,28 @@
             </div>
           </div>
         </div>
-       </section>
+      </section>
+
+      <!-- form -->
+      <section>
+        <div class="h-[500px] bg-[#166534] flex flex-col justify-center items-center">
+          <h1 class="text-[26px] font-semibold text-center mb-6 text-white ">Plant a Tree Today</h1>
+          <div class="md:w-[500px] p-7 rounded-md bg-[#15803D]">
+            <input type="text" class="w-full bg-white px-4 py-2 rounded-md border-none mb-3" placeholder="Your Name" /><br>
+            <input type="email" placeholder="Your Email Address" class="w-full bg-white px-4 py-2 rounded-md border-none mb-2" />
+            <fieldset class="fieldset">
+              <select class="select w-full rounded-md ">
+                <option disabled selected>Number of Trees</option>
+                <option>5+</option>
+                <option>10+</option>
+                <option>15+</option>
+              </select>
+            </fieldset>
+            <button class="btn rounded-3xl bg-[#FACC15] text-[#15803D] border-none w-full mt-3">Donate Now</button>
+
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
     <script src="./script.js"></script>
